@@ -1,0 +1,243 @@
+body {
+     
+    font-family: "Yantramanav", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+      
+}
+img {
+    max-width: 100%;
+    min-height: 50vh;
+}
+.mainheader ul{
+    list-style-type: none;
+}
+main .row__column {
+    display: inline-flex;
+    padding: 100px 100px;
+    gap: 50px;
+}
+h1.banner__imageheading {
+    position: absolute;
+    top: 0;
+    color: green;
+}
+
+
+
+.header__image {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}
+.banner__button.button.button--transparent {
+    position: absolute;
+    bottom: 10px;
+    left: 100px;
+    border: 2px solid white;
+    font-size: 1.4rem;
+    background-color: transparent;
+    color: white;
+    padding: 0.5em 1.71em;
+    text-decoration: none;
+}
+.banner__button.button.button--transparent:hover{
+    background-color: orange;
+    opacity: 1;
+}
+
+.header__imagetext {
+    position: absolute;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    left: 200px;
+    top: 500px;
+    display: block;
+    color: white;
+}
+.image__container {
+    position: relative;
+}
+.container {
+    max-width: 100%;
+}
+.mainheader.row__column {
+    display: inline-flex;
+    justify-content: space-between;
+}
+.mainheader__section {
+    max-height: 70px;
+}
+.row.row--fourcolumns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.mainheader__items {
+    display: inline-flex;
+    text-align: center;
+    flex-direction: row;
+    gap: 50px;
+}
+.banner__heading {
+    text-align: center;
+}
+.banner__imageheading {
+    text-align: center;
+}
+.banner__paragraph {
+    text-align: center;
+}
+.banner__imagebutton {
+    text-align: center;
+}
+.header__image.button{
+    border: 2px solid white;
+    font-size: 1.4rem;
+    background-color: transparent;
+    color: white;
+    padding: 0.5em 1.71em;
+    text-decoration: none;
+    position: absolute;
+    left: 600px;
+    top: 400px;
+}
+.header__image.button:hover {
+    background-color: orange;
+    opacity: 1;
+}
+.thumbnail-gallery {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .thumbnails__row {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    margin: 100px;
+    gap: 20px;
+  }
+
+  .thumbnail {
+    position: relative;
+    flex: 0 0 calc(25% - 10px); 
+    margin-bottom: 20px;
+  }
+
+  .thumbnail img {
+    width: 100%;
+    height: auto;
+  }
+
+  .thumbnail__info {
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 0;
+    width: 100%;
+    color: black;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+
+  .thumbnail__price {
+    margin-top: 5px;
+  }
+  .section__blacksection--threerows {
+    background-color: black;
+    padding: 20px;
+  }
+  
+  .row__blacksection--threerows {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .thumbnail.section__blacksection--threerows {
+    flex: 0 0 calc(33.333% - 10px);
+    position: relative;
+  }
+  
+  .thumbnail img {
+    width: 100%;
+    height: auto;
+  }
+  .row.row__blacksection--threerows {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+h2.row--threecolumns {
+    color: white;
+}
+  
+  .thumbnail__content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .thumbnail__heading {
+    margin-bottom: 5px;
+  }
+  
+  .thumbnail__button {
+    background-color: #fff;
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; 
+  }
+  
+
+
+.row__column {
+min-height: 40vh;
+display: inline-flex;
+
+}
+.navbar__menuitem--dropdownmenu {
+    display: none;
+}
+section.section.section--black {
+    background: black;
+    margin-top: 150px;
+}
+h1.header__image--heading {
+    font-weight: 400;
+    font-size: 80px;
+}
+h2.section__heading {
+    margin: 50px;
+}
+
+
+
+    
+
+@media (min-width: 767px ) {
+    .mainheader{
+       
+    }
+    .row--threecolumns {
+        display: grid;
+
+    }
+    .row {
+        text-align: center;
+        margin: auto;
+        max-width: 80.5rem;
+        display: grid;
+    } 
+}
+
